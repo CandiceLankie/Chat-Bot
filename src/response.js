@@ -1,7 +1,7 @@
 function getBotResponse(input) {
   if (input.includes("where is my order")) {
     return "Your order is currently in transit and should arrive within 2-3 business days.";
-  } else if (input.includes("how do I track my order")) {
+  } else if (input.includes("how do i track my order")) {
     return "You can track your order by logging into your account and going to the 'Order History' section.";
   } else if (input.includes("cancel my order")) {
     return "To cancel your order, please contact our customer support at support@example.com.";
