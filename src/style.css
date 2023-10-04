@@ -170,3 +170,11 @@
     border-radius: 0px;
   }
 }
+small {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+small:not(a) {
+  color: white;
+}
